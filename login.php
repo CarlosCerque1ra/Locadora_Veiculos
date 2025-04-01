@@ -40,7 +40,9 @@
                     <div class="mb-3 position-relative">
                         <label for="password" class="form-label">Senha:</label>
                         <input type="password" placeholder="Digite sua senha" name="password" class="form-control" id="password" require>
-                        <span class="password-toggle mt-3" onclick="togglePassword()"><i class="bi bi-eye"></i></span>
+                        <span class="password-toggle mt-3" onclick="togglePassword()">
+                            <i class="bi bi-eye-slash" id="olho"></i>
+                        </span>
                     </div>
                     <button type="submit" class="btn btn-success w-100">Entrar</button>
                 </form>
@@ -49,10 +51,19 @@
     </div>
 
     <script>
-        function togglePassword(){
-            let passwordInput = document.getElementById('password');
-            passwordInput.type = (passwordInput.type === 'password') ? 'text' : 'password'
-        }
+        function togglePassword() {
+    // Alterna o tipo do campo de senha entre "password" e "text"
+    let passwordInput = document.getElementById('password');
+    passwordInput.type = (passwordInput.type === 'password') ? 'text' : 'password';
+    
+    // Alterna a classe do ícone
+    let olho = document.getElementById('olho');
+    if (olho.classList.contains('bi-eye')) {
+      olho.classList.replace('bi-eye', 'bi-eye-slash');
+    } else {
+      olho.classList.replace('bi-eye-slash', 'bi-eye');
+    }
+  }
     </script>
 </body>
 </html>
