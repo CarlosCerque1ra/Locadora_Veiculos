@@ -30,7 +30,7 @@
                         </span>
                         <!-- Bem vindo,[usuário] -->
                         <span class="welcome-text">
-                            Bem-vindo, <strong>Administrador</strong>!
+                            Bem-vindo, <strong>Usuario</strong>!
                         </span>
                         <!-- botão de logout -->
                         <a href="#" class="btn btn-outline-danger d-flex align-items-center gap-1">
@@ -43,52 +43,8 @@
         </div>
 
         <!-- Formulário para adicionar novos veículos -->
-        <div class="row same-height-row">
-
-            <div class="col-md-6">
-                <div class="card h-100">
-                    <div class="card-header">
-                        <h4 class="mb-0">Adicionar novo veículo 🚙</h4>
-                    </div>
-                    <div class="card-body">
-                        <form action="post" class="needs-validation" novalidate>
-                            <div class="mb-3">
-                                <label for="modelo" class="form-label">
-                                    Modelo:
-                                </label>
-                                <input type="text" class="form-control" name="modelo" required>
-                                <div class="invalid-feedback">
-                                    Informe um modelo válido!
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="placa" class="form-label">
-                                    Placa:
-                                </label>
-                                <input type="text" class="form-control" name="placa" required>
-                                <div class="invalid-feedback">
-                                    Informe uma placa válida!
-                                </div>
-                            </div>
-                            <div class="mb-3">
-                                <label for="tipo" class="form-label">
-                                    Tipo:
-                                </label>
-                                <select class="form-select" name="tipo" id="tipo" required>
-                                    <option value="empty" disabled selected> </option>
-                                    <option value="carro">Carro</option>
-                                    <option value="moto">Moto</option>
-                                </select>
-                            </div>
-                            <button class="btn btn-success w-100" type="submit" name="adicionar">
-                                Adicionar veículo
-                            </button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-6">
+        
+            <div class="col-md">
                 <div class="card h-100">
                     <div class="card-header">
                         <h4 class="mb-0">
@@ -154,10 +110,7 @@
                                                 <form action="post" class="btn-group-actions">
 
                                                     <!-- Botão Deletar (sempre disponivel para o admin) -->
-                                                    <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">
-                                                        Deletar
-                                                    </button>
-
+                                                    
                                                     <div class="rent-group">
                                                         <!-- Veiculo alugado -->
 
@@ -187,10 +140,7 @@
                                                 <form action="post" class="btn-group-actions">
 
                                                     <!-- Botão Deletar (sempre disponivel para o admin) -->
-                                                    <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">
-                                                        Deletar
-                                                    </button>
-
+                                                    
                                                     <div class="rent-group">
                                                         <!-- Veiculo alugado -->
 
@@ -220,10 +170,7 @@
                                                 <form action="post" class="btn-group-actions">
 
                                                     <!-- Botão Deletar (sempre disponivel para o admin) -->
-                                                    <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">
-                                                        Deletar
-                                                    </button>
-
+                                                    
                                                     <div class="rent-group">
                                                         <!-- Veiculo alugado -->
 
