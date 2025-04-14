@@ -23,28 +23,6 @@ Este projeto é uma aplicação web simples com sistema de login e exibição de
 | `style.css`          | Arquivo de estilo com responsividade e organização de layout            |
 
 ---
-
-## 🧭 Como Usar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   ```
-2. Coloque os arquivos em um servidor com suporte a PHP (ex: XAMPP, WAMP).
-3. Acesse o `login.php` no navegador:
-   ```
-   http://localhost/seu-projeto/login.php
-   ```
-4. Use credenciais simuladas (você pode modificar os usuários diretamente no código ou conectar com um banco de dados).
-
----
-
-## 📸 Capturas de Tela (opcional)
-
-Adicione aqui screenshots do sistema em funcionamento para ilustrar.
-
----
-
 ## 🧑‍💻 Tecnologias Usadas
 
 - HTML5
@@ -52,18 +30,3 @@ Adicione aqui screenshots do sistema em funcionamento para ilustrar.
 - PHP
 
 ---
-
-## 📌 Observações
-
-- Você pode expandir este projeto adicionando autenticação com banco de dados, sessão de usuários, criptografia de senhas, entre outros.
-- O CSS incluído é modular e fácil de modificar para adaptar ao seu tema ou layout.
-
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Sinta-se livre para usar, modificar e distribuir.
-
----
-
-Feito com ❤️ por [Seu Nome]
