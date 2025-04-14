@@ -93,12 +93,64 @@
                                 <label for="quantidade" class="form-label">Quantidade de dias</label>
                                 <input type="number" name="quantidade" class="form-control" required>
                             </div>
-                            <button type="button" class="btn btn-success w-100">Calcular</button>
+                            <button type="submit" class="btn btn-success w-100" name="calcular">Calcular</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- Tabela de veiculso cadastrados -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="mb-0">
+                            Veiculos Cadastrados
+                        </h4>
+                    </div>
+                    <div class="card body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-hover">
+                                <thead>
+                                    <th>Tipo</th>
+                                    <th>Modelo</th>
+                                    <th>Placa</th>
+                                    <th>Status</th>
+                                    <th>Ações</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Carro</td>
+                                        <td>Honda Civic 2015</td>
+                                        <td>00000</td>
+                                        <td><span class="badge bg-success">Disponivel</span></td>
+                                        <td>
+                                            <div class="action-wrapper">
+                                                <form action="post" class="btn-group-actions">
+                                                    <!-- Botão Deletar (sempre disponivel para 'Adin') -->
+                                                     <button class="btn btn-danger btn-sm " type="submit" name="deletar">
+                                                        Deletar
+                                                     </button>
+                                                </form>
+                                            </div>
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>Moto</td>
+                                        <td>Cg Fan 150</td>
+                                        <td>GHDG10</td>
+                                        <td><span class="badge bg-danger">Indisponivel</span></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     
 </body>
