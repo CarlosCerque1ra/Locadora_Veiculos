@@ -30,7 +30,7 @@
                         </span>
                         <!-- Bem vindo,[usuário] -->
                         <span class="welcome-text">
-                            Bem-vindo, <strong>Usuario</strong>!
+                            Bem-vindo, <strong>Administrador</strong>!
                         </span>
                         <!-- botão de logout -->
                         <a href="#" class="btn btn-outline-danger d-flex align-items-center gap-1">
@@ -43,8 +43,9 @@
         </div>
 
         <!-- Formulário para adicionar novos veículos -->
-        
-            <div class="col-md">
+        <div class="row same-height-row">
+
+            <div class="col-md-12">
                 <div class="card h-100">
                     <div class="card-header">
                         <h4 class="mb-0">
@@ -94,100 +95,35 @@
                                         <th>Modelo</th>
                                         <th>Placa</th>
                                         <th>Status</th>
-                                        <th>Ações</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>Carro</td>
-                                        <td>Civic G9 2015</td>
-                                        <td>SIM</td>
+                                        <td>Honda Civic 2025</td>
+                                        <td>(*&*())</td>
                                         <td>
                                             <span class="badge bg-success">Disponível</span>
                                         </td>
-                                        <td>
-                                            <div class="action-wrapper">
-                                                <form action="post" class="btn-group-actions">
-
-                                                    <!-- Botão Deletar (sempre disponivel para o admin) -->
-                                                    
-                                                    <div class="rent-group">
-                                                        <!-- Veiculo alugado -->
-
-                                                        <button class="btn btn-warning btn-sm" type="submit" name="devolver">
-                                                            Devolver
-                                                        </button>
-                                                        <!-- Veiculo disponivel -->
-                                                        <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
-                                                        <button class="btn btn-primary btn-sm" type="submit" name="alugar">
-                                                            Alugar
-                                                        </button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </td>
                                     </tr>
-
-                                    <tr>
-                                        <td>Moto</td>
-                                        <td>Cg Fan 150</td>
-                                        <td>90iojef</td>
-                                        <td>
-                                            <span class="badge bg-warning">Indisponivel</span>
-                                        </td>
-                                        <td>
-                                            <div class="action-wrapper">
-                                                <form action="post" class="btn-group-actions">
-
-                                                    <!-- Botão Deletar (sempre disponivel para o admin) -->
-                                                    
-                                                    <div class="rent-group">
-                                                        <!-- Veiculo alugado -->
-
-                                                        <button class="btn btn-warning btn-sm" type="submit" name="devolver">
-                                                            Devolver
-                                                        </button>
-                                                        <!-- Veiculo disponivel -->
-                                                        <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
-                                                        <button class="btn btn-primary btn-sm" type="submit" name="alugar">
-                                                            Alugar
-                                                        </button>
-                                                    </div>
-                                                </form>
-                                            </div>
-                                        </td>
-                                    </tr>
-
                                     <tr>
                                         <td>Tanque de Guerra</td>
                                         <td>IS-2</td>
-                                        <td>Caça-Tiger</td>
+                                        <td>Detona tiger</td>
                                         <td>
-                                            <span class="badge bg-success">Disponível</span>
+                                            <span class="badge bg-warning">Alugado</span>
                                         </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Moto</td>
+                                        <td>Hayabusa 2016</td>
+                                        <td>00000</td>
                                         <td>
-                                            <div class="action-wrapper">
-                                                <form action="post" class="btn-group-actions">
-
-                                                    <!-- Botão Deletar (sempre disponivel para o admin) -->
-                                                    
-                                                    <div class="rent-group">
-                                                        <!-- Veiculo alugado -->
-
-                                                        <button class="btn btn-warning btn-sm" type="submit" name="devolver">
-                                                            Devolver
-                                                        </button>
-                                                        <!-- Veiculo disponivel -->
-                                                        <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
-                                                        <button class="btn btn-primary btn-sm" type="submit" name="alugar">
-                                                            Alugar
-                                                        </button>
-                                                    </div>
-                                                </form>
-                                            </div>
+                                            <span class="badge bg-warning">Alugado</span>
                                         </td>
                                     </tr>
                                 </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
