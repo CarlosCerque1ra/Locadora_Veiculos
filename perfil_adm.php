@@ -144,7 +144,7 @@
                                 <tbody>
                                     <tr>
                                         <td>Carro</td>
-                                        <td>Civic G9 2015</td>
+                                        <td>Civic </td>
                                         <td>SIM</td>
                                         <td>
                                             <span class="badge bg-success">Disponível</span>
